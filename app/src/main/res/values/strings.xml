@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Assignment2</string>
+    <string name="main_desc">Welcome to \n SmartPhone application\n for smart phones selling</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="your_order_successfully_completed">Your order successfully completed</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="inter_your_name">Inter your name:</string>
+    <string name="type_here">Type here</string>
+    <string name="inter_your_address">Inter your address:</string>
+    <string name="inter_your_city">Inter your city:</string>
+    <string name="inter_your_postal_code">Inter your postal code:</string>
+    <string name="inter_your_telephone_number">Inter your telephone number:</string>
+    <string name="payment_information">Payment Information</string>
+    <string name="inter_your_credit_card_number">Inter your credit card number:</string>
+    <string name="inter_your_card_type">Inter your card type:</string>
+    <string name="inter_cvv_cvc">Inter CVV/CVC:</string>
+    <string name="next">NEXT</string>
+    <string name="choose_the_color">Choose the color</string>
+    <string name="_256_gb">256 GB</string>
+    <string name="_128_gb">128 GB</string>
+    <string name="_64_gb">64 GB</string>
+    <string name="choose_the_storage">choose the Storage</string>
+    <string name="model">model</string>
+    <string name="price">price</string>
+    <string-array name="phone_color">
+        <item>blue</item>
+        <item>black</item>
+        <item>gold</item>
+        <item>silver</item>
+    </string-array>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Phone brands"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/item_apple"
+                android:title="Apple" />
+            <item
+                android:id="@+id/Oppo"
+                android:title="Oppo" />
+            <item
+                android:id="@+id/Samsung"
+                android:title="Samsung" />
+            <item
+                android:id="@+id/Google"
+                android:title="Google Pixel" />
+        </menu>
+
+
+    </item>
+</menu>

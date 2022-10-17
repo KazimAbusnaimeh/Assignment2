@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StorageAndColorActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:background="@drawable/idc_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_the_storage"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+
+    <RadioGroup
+        android:id="@+id/rg_storage"
+        android:background="@drawable/idc_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        >
+
+
+        <RadioButton
+            android:id="@+id/rb_64gb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_64_gb"
+            android:textSize="24sp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/rb_128gb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/_128_gb"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            />
+        <RadioButton
+            android:id="@+id/rb_256gb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="@string/_256_gb"
+            android:textSize="24sp"
+            android:textColor="@color/black"
+            />
+    </RadioGroup>
+    <TextView
+        android:background="@drawable/idc_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_the_color"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"/>
+
+    <Spinner
+        android:textSize="24sp"
+        android:id="@+id/spinner_color"
+        android:background="@drawable/idc_shape"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <Button
+        android:id="@+id/btn_next_to_information"
+        android:background="@drawable/idc_shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/black"
+        android:gravity="center"/>
+
+
+
+
+</LinearLayout>
