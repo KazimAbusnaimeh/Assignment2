@@ -79,6 +79,7 @@
             android:textColor="@color/black"
             android:layout_marginStart="20dp"/>
         <EditText
+            android:id="@+id/et_city"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="14sp"
@@ -102,6 +103,7 @@
             android:textColor="@color/black"
             android:layout_marginStart="20dp"/>
         <EditText
+            android:id="@+id/et_postal_code"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="14sp"
@@ -125,6 +127,7 @@
             android:textColor="@color/black"
             android:layout_marginStart="20dp"/>
         <EditText
+            android:id="@+id/et_phone_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="14sp"
@@ -157,6 +160,7 @@
             android:textColor="@color/black"
             android:layout_marginStart="20dp"/>
         <EditText
+            android:id="@+id/et_card_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="14sp"
@@ -180,6 +184,7 @@
             android:textColor="@color/black"
             android:layout_marginStart="20dp"/>
         <EditText
+            android:id="@+id/et_card_type"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="14sp"
@@ -203,6 +208,7 @@
             android:textColor="@color/black"
             android:layout_marginStart="20dp"/>
         <EditText
+            android:id="@+id/et_cvv_cvc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="14sp"
